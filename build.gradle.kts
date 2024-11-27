@@ -37,7 +37,7 @@ publishing {
         create<MavenPublication>("maven") {
             groupId = "com.github.ptmr3"
             artifactId = "fluxxap"
-            version = "0.1"
+            version = "0.3"
 
             from(components["kotlin"])
         }
